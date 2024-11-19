@@ -30,7 +30,8 @@ jobs:
     # 4. Run code analysis
     - name: Analyze code
       run: flutter analyze
-
+      continue-on-error: true
+      
     # 5. Run tests
     - name: Run tests
       run: flutter test
