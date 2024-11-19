@@ -38,7 +38,7 @@ jobs:
 
     # 6. Build APK
     - name: Build APK
-      run: flutter build apk --release
+      run: flutter build apk --release --scan
 
     # 7. Optional: Upload APK as artifact
     - name: Upload APK artifact
